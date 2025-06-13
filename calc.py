@@ -15,13 +15,12 @@ bg_img = ImageTk.PhotoImage(img)
 bg_label = tk.Label(root, image=bg_img)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-# ویجت Text با فونت بزرگ و اندازه قابل تنظیم
 text_input = tk.Text(root, font=("Arial", 70), height=2, width=25)
 text_input.place(x=20, y=20)
 
 def calculate():
     try:
-        expr = text_input.get("1.0", tk.END).strip()  # گرفتن متن داخل Text
+        expr = text_input.get("1.0", tk.END).strip()
         if '+' in expr:
             numbers = expr.split('+')
             nums = torch.tensor([float(n) for n in numbers])
