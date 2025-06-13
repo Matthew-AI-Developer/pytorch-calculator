@@ -1,0 +1,29 @@
+# 🧮 PyTorch GUI Calculator
+
+A simple calculator built with **PyTorch**, **Tkinter**, and **Pillow (PIL)**.  
+Supports basic operations: `+`, `-`, `*`, `/`.
+
+## 🖼️ Features
+- Uses a background image for a modern UI.
+- Text input with large font.
+- Calculates expressions using PyTorch tensors.
+- Handles errors like invalid input or division by zero.
+
+## 🧠 Tech Stack
+- Python 🐍
+- PyTorch 🔥
+- Tkinter 🖼️
+- PIL (Pillow) 🖼️
+
+## 📸 Screenshot
+
+> You can replace the background image path in the code like this:
+> ```python
+> img = Image.open("/your/path/to/image.png")
+> ```
+
+## ▶️ How to Run
+
+1. Install requirements:
+```bash
+pip install torch pillow
