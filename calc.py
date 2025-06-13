@@ -3,7 +3,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 
 torch.manual_seed(42)
-
+# my picture
 img = Image.open("/home/wizard/python/Pytorch/Calc/213337872.png")
 width, height = img.size
 
